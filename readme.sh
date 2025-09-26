@@ -5,6 +5,7 @@ The goal of this project is to create a web application that recommends songs to
 
 2. Core Components
 The project can be broken down into three main modules:
+Face Detection & Emotion Recognition: A pre-trained model. Libraries like face-api.js or TensorFlow.js are excellent c
 
 2.1. Emotion Detection Module
 This is the most critical part of the system. It will be responsible for:
@@ -18,8 +19,7 @@ Using a pre-trained machine learning model to predict the emotion from the facia
 Required Technologies:
 
 Webcam Access: HTML5 MediaDevices API (navigator.mediaDevices.getUserMedia).
-
-Face Detection & Emotion Recognition: A pre-trained model. Libraries like face-api.js or TensorFlow.js are excellent choices for running these models directly in the browser.
+hoices for running these models directly in the browser.
 
 2.2. Song Recommendation Logic
 Once an emotion is detected, the system needs to recommend a song. This module will:
